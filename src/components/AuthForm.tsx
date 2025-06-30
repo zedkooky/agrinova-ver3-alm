@@ -56,11 +56,20 @@ const AuthForm: React.FC<AuthFormProps> = ({ onAuthSuccess }) => {
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-primary-100 flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl shadow-xl border border-gray-100 w-full max-w-md p-8">
         <div className="text-center mb-8">
+          {/* AgriNova Logo */}
+          <div className="mb-6">
+            <img 
+              src="/Gemini_Generated_Image_ufczfjufczfjufcz.png" 
+              alt="AgriNova Logo" 
+              className="w-24 h-24 mx-auto rounded-full shadow-lg border-4 border-primary-100"
+            />
+          </div>
+          
           <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center mx-auto mb-4">
             <User className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            AgriConnect Dashboard
+            AgriNova Dashboard
           </h1>
           <p className="text-gray-600">
             {isLogin ? 'Sign in to your account' : 'Create your account'}
@@ -78,7 +87,7 @@ const AuthForm: React.FC<AuthFormProps> = ({ onAuthSuccess }) => {
                 type="email"
                 value={formData.email}
                 onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                placeholder="admin@agriconnect.com"
+                placeholder="admin@agrinova.com"
                 className="w-full pl-11 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                 required
               />
@@ -152,7 +161,7 @@ const AuthForm: React.FC<AuthFormProps> = ({ onAuthSuccess }) => {
           <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200">
             <p className="text-sm text-blue-800">
               <strong>Demo Account:</strong><br />
-              Email: admin@agriconnect.com<br />
+              Email: admin@agrinova.com<br />
               Password: admin123
             </p>
           </div>

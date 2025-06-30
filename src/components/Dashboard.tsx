@@ -25,7 +25,7 @@ const Dashboard: React.FC<DashboardProps> = ({ stats, farmers }) => {
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Enhanced Dashboard</h1>
-          <p className="text-gray-600 mt-1">SpaceZ Agro Platform - Precision Agriculture with Voice-First Experience</p>
+          <p className="text-gray-600 mt-1">AgriNova Platform - Precision Agriculture with Voice-First Experience</p>
         </div>
         <div className="mt-4 sm:mt-0">
           <div className="text-sm text-gray-500">

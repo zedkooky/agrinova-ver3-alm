@@ -76,7 +76,7 @@ const Sidebar: React.FC<SidebarProps> = ({
               <Leaf className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">AgriConnect</h1>
+              <h1 className="text-xl font-bold text-gray-900">AgriNova</h1>
               <p className="text-sm text-gray-500">Farm Management</p>
             </div>
           </div>

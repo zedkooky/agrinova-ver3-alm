@@ -197,7 +197,7 @@ return (
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Enhanced Communication Logs</h1>
         <p className="text-gray-600 mt-1">
-          Multi-channel communication system with voice-first experience
+          AgriNova Communication System with voice-first experience
         </p>
       </div>
 
@@ -498,4 +498,3 @@ return (
 };
   
 export default IVRLogs;
-
