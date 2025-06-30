@@ -58,7 +58,7 @@ class IVRService {
     try {
       const defaultMessage = `Hello ${messageData.farmerName}! 🌾
 
-Welcome to SpaceZ Agro Platform - we're here to help you make more from your farming! 
+Welcome to AgriNova Platform - we're here to help you make more from your farming! 
 
 Please reply with:
 1️⃣ CROP - Report your crop condition  
@@ -174,7 +174,7 @@ We're committed to helping rural farmers succeed! 💚`
 
   generateIVRMenu(): string {
     return `
-      Welcome to SpaceZ Agro Platform - Helping Rural Farmers Make More!
+      Welcome to AgriNova Platform - Helping Rural Farmers Make More!
       
       Press 1 to report crop conditions
       Press 2 for weather information  
@@ -185,7 +185,7 @@ We're committed to helping rural farmers succeed! 💚`
   }
 
   generateWhatsAppMenu(): string {
-    return `🌾 *SpaceZ Agro Platform Menu*
+    return `🌾 *AgriNova Platform Menu*
 
 Reply with:
 1️⃣ *CROP* - Report crop condition
