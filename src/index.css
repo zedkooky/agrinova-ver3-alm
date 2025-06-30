@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bolt-badge {
+  transition: all 0.3s ease;
+}
+
+@keyframes badgeIntro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bolt-badge-intro {
+  animation: badgeIntro 1s ease-out 1s both;
+}
+
+.bolt-badge-intro.animated {
+  animation: none;
+}
+
+@keyframes badgePulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+}
+
+.bolt-badge {
+  animation: badgePulse 2s ease-in-out infinite;
+}
